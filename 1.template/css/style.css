@@ -1,0 +1,136 @@
+/*---Fonts---*/
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../fonts/Barlow-Condensed/BarlowCondensed-Medium.ttf");
+}
+
+@font-face {
+  font-family: "BarlowCondensed-ExtraBold";
+  src: url("../fonts/Barlow-Condensed/BarlowCondensed-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "BarlowCondensed-Thin";
+  src: url("../fonts/Barlow-Condensed/BarlowCondensed-Thin.ttf");
+}
+
+@font-face {
+  font-family: "BarlowCondensed-Light";
+  src: url("../fonts/Barlow-Condensed/BarlowCondensed-Light.ttf");
+}
+/*---Fonts---*/
+
+/*----Colors----*/
+
+.or-bg-primary {
+  background: rgb(255, 92, 92) !important;
+}
+
+.or-color-n1 {
+  color: hsl(230, 29%, 20%);
+}
+
+.or-color-n2 {
+  color: rgb(91, 95, 113);
+}
+
+.or-color-n3 {
+  color: hsl(231, 7%, 65%);
+}
+
+.or-color-n4 {
+  color: hsl(207, 33%, 95%);
+}
+
+/*----Colors----*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.text-home {
+  margin: 45px;
+}
+
+h1 {
+  font-family: "BarlowCondensed-ExtraBold";
+  font-size: 60px;
+}
+
+.or-badge {
+  background: hsl(230, 29%, 20%) !important;
+  color: white !important;
+  padding: 6px !important;
+  font-family: "Barlow Condensed" !important;
+  font-size: 16px;
+  /* border-radius: 20px; */
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px;
+}
+
+.thin-font {
+  font-family: "BarlowCondensed-Thin";
+}
+
+.ligth-font {
+  font-family: "BarlowCondensed-Light";
+}
+
+.or-text-primary {
+  color: hsl(231, 7%, 65%);
+}
+
+.or-text-secondary {
+  color: rgb(91, 95, 113);
+}
+
+.or-content-body {
+  margin: 70px;
+}
+
+.or-nav {
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  color: black;
+  background: none;
+  margin: 40px;
+}
+
+.or-nav > ul > li {
+  list-style-type: none;
+  margin: 10px;
+  float: right;
+}
+
+.link-login:hover {
+  color: hsl(231, 7%, 65%);
+}
+
+.or-links {
+  color: black !important;
+}
+
+.or-btn-home {
+  color: white;
+  font-family: "Barlow Condensed";
+}
+
+.or-btn-home:hover {
+  background: rgb(255, 157, 157) !important;
+  color: white;
+}
+
+.or-img-home {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  clip-path: inset(0px 290px 0px 0px);
+  float: left;
+  clear: both;
+}
